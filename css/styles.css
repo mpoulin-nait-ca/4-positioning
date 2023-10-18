@@ -1,0 +1,83 @@
+body {
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* UTILITY CLASSES */
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* HEADER */
+header svg {
+    width: 50px;
+    fill: white;
+}
+header {
+    background-color: teal;
+    padding: 1rem;
+}
+h1 {
+    color: white;
+    font-size: 28px;
+}
+
+/* MAIN LAYOUT */
+
+/* for the sale svg */
+.st0{fill:#DC6419;}
+.st1{fill:#FFFFFF;}
+
+.container {
+    padding: 2rem;
+}
+section section {
+    padding: 1rem;
+    background-color: lightgray;
+    border-radius: 4px ;
+}
+
+main svg {
+    width: 100px;
+}
+section div:first-of-type, section:last-of-type div:first-of-type {
+    position: relative;
+}
+
+section div:first-of-type svg {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+section section:last-of-type div:first-of-type svg {
+    left: 1rem;
+}
+
+section section {
+    margin-bottom: 1rem;
+}
+
+.live-chat {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px dotted teal;
+    padding: 1rem;
+    text-align: center;
+}
+
+.live-chat svg {
+    width: 50px;
+}
+/* MEDIA QUERIES */
+
